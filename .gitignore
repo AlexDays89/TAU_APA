@@ -1,0 +1,17 @@
+# Ignore virtual environment
+venv/
+node_modules/
+.env
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+dist/
+build/

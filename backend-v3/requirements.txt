@@ -1,0 +1,12 @@
+
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+transformers
+torch
+spacy
+es-core-news-lg
+sympy
+networkx
+pandas
