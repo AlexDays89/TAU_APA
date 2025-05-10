@@ -7,6 +7,8 @@ __pycache__/
 *.pyo
 *.pyd
 
+backend-v3/run_dev.ps1
+
 # Node.js
 node_modules/
 npm-debug.log*

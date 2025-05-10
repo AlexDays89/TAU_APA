@@ -1,6 +1,9 @@
 import sys
 from pathlib import Path
 
+# Añade el directorio raíz del proyecto al path
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 # Importamos configuración y adaptadores
 from config import DATA_DIR
 from ingestores import cargar_excel, cargar_pdf

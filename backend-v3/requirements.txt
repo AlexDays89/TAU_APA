@@ -1,12 +1,29 @@
+# Core API y DB
+fastapi==0.115.1
+uvicorn==0.34.0
+sqlalchemy==2.0.40
+psycopg2-binary==2.9.10
 
-fastapi
-uvicorn
-sqlalchemy
-psycopg2-binary
-transformers
-torch
-spacy
-es-core-news-lg
-sympy
-networkx
-pandas
+# Procesamiento de lenguaje
+spacy==3.8.5
+es-core-news-lg @ https://github.com/explosion/spacy-models/releases/download/es_core_news_lg-3.8.0/es_core_news_lg-3.8.0-py3-none-any.whl
+
+# Modelos y embeddings
+transformers==4.51.0
+torch==2.2.2
+sentence-transformers==2.5.1
+bitsandbytes==0.43.0
+
+# llama-index (para RAG)
+llama-index==0.10.38
+llama-index-embeddings-huggingface==0.1.7
+llama-index-llms-huggingface==0.1.9
+llama-index-vector-stores-faiss==0.1.7
+
+# Utilidades
+pandas==2.2.1
+openpyxl==3.1.2
+python-dotenv==1.0.1
+PyMuPDF==1.25.5
+protobuf
+sentencepiece
